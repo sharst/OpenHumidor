@@ -19,6 +19,19 @@ OpenHumidor is written in Python (base station software) and Arduino (sensor boa
 
 For a more detailed explanation of the components, see below. 
 
+## Where can I buy it?
+Currently, nowhere. This project is still in a prototype / testing phase. For instance, A new version of the sensor board is on the way. I would like to test it thoroughly before releasing it. 
+I would be however very greatful if you signaled you interest by watching this project. This way, you will be the first to know when the new PCB is out. You can get an overview of the project status in the wiki.
+
+## How can I get involved?
+Some ideas:
+* Watch this project to show me you're interested
+* If you have any questions, send me a message
+* Browse the source code
+* File issues or enhancement requests
+* Fork the project, make my code better and file a pull request!
+* Solve one of the issues in the bug tracker!
+
 ## Building blocks
 
 ### The sensor board
