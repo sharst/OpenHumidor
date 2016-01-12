@@ -1,5 +1,7 @@
 # OpenHumidor
 
+### Disclaimer: I am currently editing this project, therefore not all information is necessarily complete or correct.
+
 ## What is OpenHumidor?
 OpenHumidor is a project consisting of both hardware and software to measure and control humidity in a cigar humidor. 
 It is set up to be:
