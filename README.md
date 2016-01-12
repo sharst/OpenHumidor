@@ -32,11 +32,11 @@ You can use a base station to collect data from several sensors, display it or a
 The base station
 * collects and orders data
 * displays data in a simple webview that you can view from home or on the go
-* if fans are available on one of the sensors, switches them on or off
+* if fans are available on one of the sensors, switches them aon or off
 * if moisturizers are available, opens or closes them
 * can send you email status notifications
 
-The webview currently looks like this (some debug informations are still being displayed):
+The webview currently looks like this (some debug information is still being displayed):
 ![The OpenHumidor webview](https://github.com/sharst/OpenHumidor/blob/master/OH-webview.png)
 
 ### Moisturizer
