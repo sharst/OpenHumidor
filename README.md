@@ -15,7 +15,7 @@ OpenHumidor is written in Python (base station software) and Arduino (sensor boa
 * With one sensor and one humidifier as a local electronic humidifying solution
 * With 1-4 sensors and a receiver which displays each sensors' humidity and temperature
 * With as many sensors, fans and moisturizers as you want that report to one base station:
-![Three sensors, two fans and a mositurizer driven by a bases station](https://github.com/sharst/OpenHumidor/blob/master/OH-usecase1.png)
+![Three sensors, two fans and a mositurizer driven by a bases station](https://github.com/sharst/OpenHumidor/blob/master/wiki_images/OH-usecase1.png)
 
 For a more detailed explanation of the components, see below. 
 
@@ -35,7 +35,7 @@ Some ideas:
 ## Building blocks
 
 ### The sensor board
-![The sensor PCB](https://github.com/sharst/OpenHumidor/blob/master/OH-sensor.jpg)
+![The sensor PCB](https://github.com/sharst/OpenHumidor/blob/master/wiki_images/OH-sensor.jpg)
 
 The elemental part of OpenHumidor is its sensor. It is a small (4cm x 4cm x 2cm) printed circuit board that measures air humidity and temperature. With the included wireless chip, it can transmit this data over the air to a base station. You can run the sensor either on battery or wall power. Furthermore, it is extendable via the white connectors to drive a fan, a moisturizer or communicate to any other device using a standard serial output. 
 
@@ -50,10 +50,10 @@ The base station
 * can send you email status notifications
 
 The webview currently looks like this (some debug information is still being displayed):
-![The OpenHumidor webview](https://github.com/sharst/OpenHumidor/blob/master/OH-webview.png)
+![The OpenHumidor webview](https://github.com/sharst/OpenHumidor/blob/master/wiki_images/OH-webview.png)
 
 ### Moisturizer
-![The moisturizer](https://github.com/sharst/OpenHumidor/blob/master/OH-moisturizer.png)
+![The moisturizer](https://github.com/sharst/OpenHumidor/blob/master/wiki_images/OH-moisturizer.png)
 
 Built from a standard wooden casing and custom metal parts fabricated at [fabtools](http://www.fabtools.de). Using a stepper motor, it can be opened to varying degrees with simple commands send over a serial interface. 
 
