@@ -9,7 +9,7 @@ It is set up to be:
 
 OpenHumidor is written in Python (base station software) and Arduino (sensor board firmware). The board layout was designed in KiCad. It is spread over several GitHub repositories, so you only need to check out the files you actually need. 
 * [OpenHumidor-Arduino](https://github.com/sharst/OpenHumidor-Arduino) for the sensor board firmware
-* [OpenHumidor-KiCad](https://github.com/sharst/OpenHumidor-Kicad) for the sensor layout files
+* [OpenHumidor-Hardware](https://github.com/sharst/OpenHumidor-Hardware) for the sensor layout files
 * This repository, where I will release the Python Base Station code once it is ready. 
 
 ## How can I use OpenHumidor?
