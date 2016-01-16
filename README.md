@@ -1,7 +1,5 @@
 # OpenHumidor
 
-### Disclaimer: I am currently editing this project, therefore not all information is necessarily complete or correct.
-
 ## What is OpenHumidor?
 OpenHumidor is a project consisting of both hardware and software to measure and control humidity in a cigar humidor. 
 It is set up to be:
@@ -9,7 +7,10 @@ It is set up to be:
 * simple: you can set it up from the ground up within an hour or get it pre-configured
 * cheap: aiming at ~10$ a sensor, ~20$ a humidifier
 
-OpenHumidor is written in Python (base station software) and Arduino (sensor board firmware). The board layout was designed in KiCad. 
+OpenHumidor is written in Python (base station software) and Arduino (sensor board firmware). The board layout was designed in KiCad. It is spread over several GitHub repositories, so you only need to check out the files you actually need. 
+* [OpenHumidor-Arduino](https://github.com/sharst/OpenHumidor-Arduino) for the sensor board firmware
+* [OpenHumidor-KiCad](https://github.com/sharst/OpenHumidor-Kicad) for the sensor layout files
+* This repository, where I will release the Python Base Station code once it is ready. 
 
 ## How can I use OpenHumidor?
 * With one sensor and one humidifier as a local electronic humidifying solution
@@ -20,7 +21,7 @@ OpenHumidor is written in Python (base station software) and Arduino (sensor boa
 For a more detailed explanation of the components, see below. 
 
 ## Where can I buy it?
-Currently, nowhere. This project is still in a prototype / testing phase. For instance, A new version of the sensor board is on the way. I would like to test it thoroughly before releasing it. 
+Currently, nowhere. This project is still in a prototype / testing phase. Currently, a new version of the sensor board is on the way to me (version 5). I would like to test it thoroughly before supporting it. 
 I would be however very greatful if you signaled you interest by watching this project. This way, you will be the first to know when the new PCB is out. You can get an overview of the project status in the wiki.
 
 ## How can I get involved?
