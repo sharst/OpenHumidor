@@ -17,12 +17,16 @@ OpenHumidor is written in Python (base station software) and Arduino (sensor boa
 <img src="https://github.com/sharst/OpenHumidor/blob/master/wiki_images/OH-usecase-single.png" width=50 align="right">
 
 The sensor will measure relative humidity and open the moisturizer should the air be too dry.
+ 
 
 * With 1-4 sensors and a base station which displays each sensors' humidity and temperature
 <img src="https://github.com/sharst/OpenHumidor/blob/master/wiki_images/OH-usecase-base.png"  width=200 align="right">
 
 The sensors will transmit humidity and temperature data to a base station, which displays the data. Additionally, you can add fans and moisturizers to the sensors. The base station will decide based on the data whether to switch on fans or open the air humidifiers.
 
+.
+
+.
 
 * With as many sensors as you like, connected to your computer
 <img src="https://github.com/sharst/OpenHumidor/blob/master/wiki_images/OH-usecase-pc.png"  width=200 align="right">
