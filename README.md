@@ -7,10 +7,10 @@ It is set up to be:
 * simple: you can set it up from the ground up within an hour or get it pre-configured
 * cheap: aiming at ~10$ a sensor, ~20$ a humidifier
 
-OpenHumidor is written in Python (base station software) and Arduino (sensor board firmware). The board layout was designed in KiCad. It is spread over several GitHub repositories, so you only need to check out the files you actually need. 
+OpenHumidor is written in Arduino. The board layout was designed in KiCad. There is also an interface for python. OpenHumidor is spread over several GitHub repositories, so you only need to check out the files you actually need. 
 * [OpenHumidor-Arduino](https://github.com/sharst/OpenHumidor-Arduino) for the sensor board firmware
 * [OpenHumidor-Hardware](https://github.com/sharst/OpenHumidor-Hardware) for the sensor layout files
-* This repository, where I will release the Python Base Station code once it is ready. 
+* This repository, where I will release the Python code and tools once they are ready. 
 
 ## How can I use OpenHumidor?
 * With one sensor and one humidifier as a local electronic humidifying solution. 
@@ -36,12 +36,13 @@ Same as in the example above, but the data will be transmitted to your computer 
 For a more detailed explanation of the components, see below. 
 
 ## Where can I buy it?
-Currently, nowhere. This project is still in a prototype / testing phase. Currently, a new version of the sensor board is on the way to me (version 5). I would like to test it thoroughly before supporting it. 
-I would be however very greatful if you signaled you interest by watching this project. This way, you will be the first to know when the new PCB is out. You can get an overview of the project status in the wiki.
+Currently, nowhere. Once I'm ready with all the testing I will howerver try to provide pre-assembled boards. In the meantime, you can build your own by following the [getting started guide](https://github.com/sharst/OpenHumidor/wiki/Getting-Started-With-OpenHumidor)
+I would however be very greatful if you signaled you interest by watching this project. This way you'll stay up to date with the progress in this project. You can always get an overview of the project status in the [wiki](https://github.com/sharst/OpenHumidor/wiki).
 
 ## How can I get involved?
 Some ideas:
 * Watch this project to show me you're interested
+* Build your own OpenHumidor system and report back to me if you run into problems
 * If you have any questions, send me a message
 * Browse the source code
 * File issues or enhancement requests
@@ -51,7 +52,7 @@ Some ideas:
 ## Building blocks
 
 ### The sensor board
-![The sensor PCB](https://github.com/sharst/OpenHumidor/blob/master/wiki_images/OH-sensor.jpg)
+![The sensor PCB](https://github.com/sharst/OpenHumidor/blob/master/wiki_images/board_v06.jpg)
 
 The elemental part of OpenHumidor is its sensor. It is a small (4cm x 4cm x 2cm) printed circuit board that measures air humidity and temperature. With the included wireless chip, it can transmit this data over the air to a base station. You can run the sensor either on battery or wall power. Furthermore, it is extendable via the white connectors to drive a fan, a moisturizer or communicate to any other device using a standard serial output. 
 
@@ -66,7 +67,7 @@ The base station
 
 
 ### Moisturizer
-![The moisturizer](https://github.com/sharst/OpenHumidor/blob/master/wiki_images/OH-moisturizer.png)
+![The moisturizer](https://github.com/sharst/OpenHumidor-Hardware/blob/master/Humidifier/humidifier_3dprint_overview.png)
 
 Built from a standard wooden casing and custom metal parts fabricated at [fabtools](http://www.fabtools.de). Using a servo motor, it can be opened when the surrounding air is too dry.
 
