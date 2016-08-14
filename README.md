@@ -59,6 +59,8 @@ The elemental part of OpenHumidor is its sensor. It is a small (4cm x 4cm x 2cm)
 ### The base station
 You can use a base station to collect data from several sensors, display it and act on it. The base station uses a stripped down version of the sensor PCB to receive data from all the sensors out there.
 
+![BaseStation](https://github.com/sharst/OpenHumidor/blob/master/wiki_images/basestation_v01.png)
+
 The base station
 * collects and orders data
 * displays data on a 2.2" tft display
