@@ -77,4 +77,4 @@ These are standard 40mm fans that run on a 5V power supply, attached to a two-pi
 ### UART connector for your convenience
 You want to use OpenHumidor for something entirely different? All data from the sensors is available to you either directly from the sensors or from the base station by means of a simple, open protocol. There is even a python library to get you started!
 
-
+![UART connector](https://github.com/sharst/OpenHumidor/blob/master/wiki_images/board_debug.jpg)
