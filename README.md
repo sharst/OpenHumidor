@@ -7,6 +7,9 @@ It is set up to be:
 * simple: you can set it up from the ground up within an hour or get it pre-configured
 * cheap: aiming at ~10$ a sensor, ~20$ a humidifier
 
+## Watch a short video here:
+[![OpenHumidor on youtube](https://github.com/sharst/OpenHumidor/blob/master/wiki_images/youtube_screenshot.png)](https://www.youtube.com/watch?v=KaSzb9w1VgY)
+
 OpenHumidor is written in Arduino. The board layout was designed in KiCad. There is also an interface for python. OpenHumidor is spread over several GitHub repositories, so you only need to check out the files you actually need. 
 * [OpenHumidor-Arduino](https://github.com/sharst/OpenHumidor-Arduino) for the sensor board firmware
 * [OpenHumidor-Hardware](https://github.com/sharst/OpenHumidor-Hardware) for the sensor layout files
